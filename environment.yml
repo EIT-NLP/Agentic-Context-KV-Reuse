@@ -1,0 +1,13 @@
+name: attuner
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - git
+  - libsndfile
+  - libgl
+  - libglib
+  - pip:
+      - setuptools>=68
+      - wheel

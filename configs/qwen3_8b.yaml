@@ -1,0 +1,42 @@
+# Dense Qwen3-8B: all 36 layers, q_proj adapters.
+dtype: bfloat16
+attention_backend: sdpa
+enable_thinking: false
+seed: 20260918
+cache_dir: null
+cache_memory_gib: 24
+eval_workers: 4
+generation:
+  temperature: 0.0
+  max_new_tokens: 4096
+dataset_generation:
+  musique: {max_new_tokens: 512}
+  personamem_v2: {max_new_tokens: 2048}
+training:
+  rank: 8
+  alpha: 16
+  layer_start: 0
+  layer_end: 35
+  learning_rate: 0.0002
+  weight_decay: 0.01
+  epochs: 1
+  micro_batch_size: 1
+  global_batch_size: 16
+  max_grad_norm: 1.0
+  artifact_order: official
+  response_tokens: 256
+dataset_training:
+  bigcodebench: {response_tokens: 1024}
+  musique: {response_tokens: 256}
+  personamem_v2: {response_tokens: 256}
+ape_temperature: 0.9
+ape_scale: 0.9
+ape_kernel: flash
+ape_cache_layout: artifact_only
+epic_official_tokens: 4
+cacheblend_mask: original_positions
+cacheblend_check_layer: 1
+cacheblend_ratio: 0.16
+agentkvshift_check_layer: 1
+agentkvshift_ratio: 0.1
+recompute_query_batch: 128

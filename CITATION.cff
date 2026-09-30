@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Attuner paper when its bibliographic record is available."
+title: "Attuner: Recomputation-Free KV Reuse"
+authors:
+  - name: "Attuner contributors"
+type: software
+version: 0.1.0
+license: Apache-2.0
