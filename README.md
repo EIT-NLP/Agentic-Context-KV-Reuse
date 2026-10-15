@@ -1,11 +1,12 @@
 # ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.36722)
-[![PDF](https://img.shields.io/badge/PDF-Download-555555?style=flat-square)](https://arxiv.org/pdf/2609.36722)
-[![Project Page](https://img.shields.io/badge/Project_Page-Website-0078D4?style=flat-square)](https://skycxh.github.io/attuner-project-page/)
-[![Citation](https://img.shields.io/badge/Citation-BibTeX-5B4B8A?style=flat-square)](#citation)
+<p align="center">
+  <a href="https://arxiv.org/abs/2609.36722"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="Paper"></a>
+  <a href="https://skycxh.github.io/attuner-project-page/"><img src="https://img.shields.io/badge/Project_Page-Website-0078D4?style=flat-square" alt="Project Page"></a>
+  <a href="#citation"><img src="https://img.shields.io/badge/Citation-BibTeX-5B4B8A?style=flat-square" alt="Citation"></a>
+</p>
 
-**Learn to read a frozen cache, without rewriting it.**
+<p align="center"><strong>Learn to read a frozen cache, without rewriting it.</strong></p>
 
 Attuner trains small query-projection adapters to read independently cached
 artifacts. The base model and stored artifact KV remain unchanged. One adapter
