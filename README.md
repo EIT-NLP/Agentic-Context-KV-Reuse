@@ -1,6 +1,9 @@
 # ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation
 
-[Paper](https://arxiv.org/abs/2609.36722) · [PDF](https://arxiv.org/pdf/2609.36722) · [Citation](#citation)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2609.36722)
+[![PDF](https://img.shields.io/badge/PDF-Download-555555?style=flat-square)](https://arxiv.org/pdf/2609.36722)
+[![Project Page](https://img.shields.io/badge/Project_Page-Website-0078D4?style=flat-square)](https://skycxh.github.io/attuner-project-page/)
+[![Citation](https://img.shields.io/badge/Citation-BibTeX-5B4B8A?style=flat-square)](#citation)
 
 **Learn to read a frozen cache, without rewriting it.**
 
