@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "recomputation-free-kv-reuse"
 version = "0.1.0"
-description = "Attuner: learning to read independently cached artifact KV"
+description = "ATTUNER: Recomputation-Free Agentic Context KV Reuse"
 readme = "README.md"
 requires-python = ">=3.10,<3.13"
 license = {file = "LICENSE"}

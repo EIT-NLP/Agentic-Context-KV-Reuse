@@ -1,4 +1,4 @@
-# ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation
+# ATTUNER: Recomputation-Free Agentic Context KV Reuse
 
 <p align="center">
   <a href="https://arxiv.org/abs/2609.36722"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=flat-square&amp;logo=arxiv&amp;logoColor=white" alt="Paper"></a>
@@ -319,7 +319,7 @@ If you use ATTUNER in your research, please cite our paper:
 
 ```bibtex
 @misc{chen2026attunerrecomputationfreekvcache,
-  title         = {ATTUNER: Recomputation-Free KV Cache Reuse via Query-Side Adaptation},
+  title         = {ATTUNER: Recomputation-Free Agentic Context KV Reuse},
   author        = {Xinghao Chen and Junnan Dong and Cai Ke and Chak Tou Leong and Haocheng Sun and Keyu Chen and Siyu An and Ruizhi Qiao and Xing Sun and Wenjie Li and Xiaoyu Shen},
   year          = {2026},
   eprint        = {2609.36722},
