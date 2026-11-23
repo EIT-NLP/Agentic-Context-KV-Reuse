@@ -21,6 +21,16 @@ Historical experiment launchers and visualization code are not included.
 
 *ATTUNER adapts online queries while keeping independently constructed artifact KV unchanged.*
 
+### Demo
+
+Full, PIC, and ATTUNER on a BigCodeBench task with Qwen3-4B, shown side by side at original speed.
+
+[![Watch the Full, PIC, and ATTUNER video comparison](https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-poster.jpg)](https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-comparison.mp4)
+
+<p align="center">
+  <a href="https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-comparison.mp4">▶ Watch the demo</a>
+</p>
+
 ### Workflow
 
 1. [Install the environment](#1-install) and [prepare models and datasets](#2-download-base-models-and-prepare-datasets).
