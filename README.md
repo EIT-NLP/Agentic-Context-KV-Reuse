@@ -25,11 +25,7 @@ Historical experiment launchers and visualization code are not included.
 
 Full, PIC, and ATTUNER on a BigCodeBench task with Qwen3-4B, shown side by side at original speed.
 
-[![Watch the Full, PIC, and ATTUNER video comparison](https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-poster.jpg)](https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-comparison.mp4)
-
-<p align="center">
-  <a href="https://skycxh.github.io/attuner-project-page/assets/bigcodebench-00703-comparison.mp4">▶ Watch the demo</a>
-</p>
+https://github.com/user-attachments/assets/44e28624-a433-4a57-90b7-b9684e0b13bd
 
 ### Workflow
 
